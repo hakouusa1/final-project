@@ -53,7 +53,7 @@ class FirstApp extends StatelessWidget {
             onPressed: () {},
             icon: const Icon(
               Icons.search,
-              size: 33,
+              size: 10,
             ),
           ),
           IconButton(
