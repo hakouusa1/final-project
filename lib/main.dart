@@ -26,8 +26,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        initialRoute: "/", routes: {"/": (context) => Bottom()});
+    return MaterialApp(initialRoute: "/", routes: {"/": (context) => Bottom()});
   }
 }
 
@@ -38,7 +37,7 @@ class FirstApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 44, 28, 28),
+        backgroundColor: Color.fromARGB(255, 238, 234, 234),
         title: const Text("NeedServe"),
         elevation: 20,
         centerTitle: true,
